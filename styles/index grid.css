@@ -1,0 +1,37 @@
+main{
+    border-radius: 0.6222222222775309em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.6222222222775309em;
+    grid-template-areas: 
+    "article1 article2 aside1"
+    "article3 aside2 aside2" ;
+}
+
+aside:nth-of-type(1){
+    grid-area: aside1; 
+    margin-left: 10em;
+}
+
+aside:nth-of-type(2){
+    grid-area: aside2;
+    margin-left: 10em;
+    margin-top: 1.6em;
+}
+
+article:nth-of-type(1){
+    grid-area: article1;
+    margin-left: 7em;
+}
+
+article:nth-of-type(2){
+    grid-area: article2;
+    margin-left: 10em;
+}
+
+article:nth-of-type(3){
+    grid-area: article3;
+    margin-left: 7em;
+}
+
+

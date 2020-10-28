@@ -1,0 +1,60 @@
+h1{
+   color: red;
+}
+body{
+    background-color: rgb(214, 214, 214);
+    margin: 0%;
+}
+.Izbornik{
+    overflow: hidden;
+    border-collapse: collapse;
+    padding: 0%;
+    background-color: rgb(207, 207, 207);
+}
+.Izbornik a{
+    color: black;
+    font-size: 1.2444444445550618em;
+    float: left;
+    padding: 1.2444444445550618em;
+    text-align: center;
+    text-decoration: none;
+}
+.Izbornik a:hover{
+    background-color: #ddd;
+    color: green;
+}
+
+main{
+    width: 18.666666668325927em;
+    height: 100%;
+}
+
+header h1{
+    color:darkslategray;
+    font-size: 4em;
+    text-align: center;
+    margin: 0%;
+   background-color: darkgray;
+}
+
+ main article img,aside img{
+     width: 21.77777777971358em;
+    height: 18.666666668325927em;
+    margin-bottom: 0%;
+    margin-top: 1.5em;
+}
+
+main article p,aside p{
+    margin-top: 0%;
+    background-color: rgb(119, 133, 133);
+    border-radius: 0.6em;
+    font-size: 1.25em;
+}
+main article a,aside a{
+    text-decoration: none;
+    color: black;
+}
+main aside video{
+    width: 44.8em;
+    height: 25.2em;
+}
